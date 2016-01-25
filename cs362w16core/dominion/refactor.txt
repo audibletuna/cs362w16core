@@ -1,0 +1,26 @@
+Andrea Baldwin
+cs362 assignment 1 documentation
+
+cards refactored:
+
+Adventure
+int adventurer_card(int currentPlayer, struct gameState *state)
+line 646
+
+smithy
+int smithy_card(int currentPlayer, struct gameState *state, int handPos)
+line 675
+
+minion
+int minion_card(int currentPlayer, struct gameState *state, int handPos, int choice1, int choice2)
+line 688
+
+embargo
+int embargo_card(int currentPlayer, struct gameState *state, int handPos, int choice1)
+line 734
+
+salvager
+int salvager_card(int currentPlayer, struct gameState *state, int handPos, int choice1)
+line 752
+
+
